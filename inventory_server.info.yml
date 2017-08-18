@@ -1,0 +1,12 @@
+name: 'Inventory Server'
+description: 'A consolidated site inventory that will securely poll Aegir servers for CSV-formatted site inventories, and provide a consolidated report (available for download in CSV format).'
+type: module
+core: 8.x
+dependencies:
+  - field
+  - menu_ui
+  - node
+  - path
+  - text
+  - user
+  - views

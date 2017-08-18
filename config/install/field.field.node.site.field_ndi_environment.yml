@@ -1,0 +1,18 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_ndi_environment
+    - node.type.site
+id: node.site.field_ndi_environment
+field_name: field_ndi_environment
+entity_type: node
+bundle: site
+label: Environment
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

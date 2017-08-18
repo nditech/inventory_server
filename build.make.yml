@@ -1,0 +1,17 @@
+core: 8.x
+api: 2
+
+projects:
+
+  drupal:
+    type: core
+  migrate_source_csv: { version: ~ }
+  migrate_plus: { version: ~ }
+  migrate_tools:
+    version: ~
+    patch:
+      - 'https://www.drupal.org/files/issues/migrate_tools_dashboard-2825846-4.patch'
+  views_data_export: { version: ~ }
+  #csv_serialization: { version: ~ }
+  features: { version: ~ }
+  config_update: { version: ~ }
